@@ -1,0 +1,16 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#00b300",
+        "activityBar.activeBorder": "#dfdfff",
+        "activityBar.background": "#00b300",
+        "activityBar.foreground": "#000000",
+        "activityBar.inactiveForeground": "#00000099",
+        "sash.hoverBorder": "#00b300",
+        "statusBar.background": "#008000",
+        "statusBar.foreground": "#000000",
+        "statusBarItem.hoverBackground": "#00b300",
+        "statusBarItem.remoteBackground": "#008000",
+        "statusBarItem.remoteForeground": "#000000",
+        "tab.activeBorder": "#00b300"
+    }
+}
