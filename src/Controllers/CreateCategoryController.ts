@@ -6,7 +6,6 @@ export class CreateCategoryController {
       const { name, description } = request.body;
 
       const service = new CreateCategoryService();
-
       const result = service.execute({name, description});
 
       if (result instanceof Error){
