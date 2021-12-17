@@ -1,5 +1,5 @@
 
-import { Entity, Column, CreateDateColumn, PrimaryColumn, ManyToMany, JoinColumn } from "typeorm";
+import { Entity, Column, CreateDateColumn, PrimaryColumn, ManyToMany, JoinColumn, ManyToOne } from "typeorm";
 import { v4 as uuid } from "uuid";
 import { Category } from "./Category";
 
@@ -15,7 +15,7 @@ export class Video {
     @Column()
     category_id: string;
 
-    @ManyToMany(() => Category)
+    @ManyToOne(() => Category)
     @JoinColumn({ name: "category_id" })
     category: Category;
 
