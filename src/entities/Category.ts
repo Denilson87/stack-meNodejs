@@ -5,17 +5,17 @@ import { v4 as uuid } from "uuid";
 
 @Entity("categories")
 export class Category {
-@PrimaryColumn()
+    @PrimaryColumn()
     id: string;
-@Column()
+    @Column()
     name: string;
-@Column()
+    @Column()
     description: string;
-@CreateDateColumn()
+    @CreateDateColumn()
     created_at: Date;
 
-    constructor(){
-        if(!this.id){
+    constructor() {
+        if (!this.id) {
             this.id = uuid()
         }
     }
